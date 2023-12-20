@@ -9,78 +9,135 @@
   <link rel="stylesheet" href="styles.css">
   <title>Accueil</title>
 </head>
+
 <body>
-  
-<header>
-                      <!-- ... Contenu du menu de navigation ... -->
-  
-  <nav class="navbar p-0 navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid p-0">
-      <img src="img/logo_transparent.png" class="col-3 " alt="Logo THE DISCTRIC">
-      <button class="navbar-toggler custom-navbar-btn col-2" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="acceuil.html">ACCEUIL</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="categories.html">CATEGORIES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"> TOUT LES PLATS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT</a>
-          </li>
-        </ul>
+
+  <header>
+    <!-- ... Contenu du menu de navigation ... -->
+
+    <nav class="navbar p-0 navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid p-0">
+        <img src="img/logo_transparent.png" class="col-3 " alt="Logo THE DISCTRIC">
+        <button class="navbar-toggler custom-navbar-btn col-2" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="acceuil.html">ACCEUIL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="categories.html">CATEGORIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tout_les_plats.html"> TOUT LES PLATS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-</header>
+    </nav>
+  </header>
+
+  <!-- ... Contenu du parallax ici ... -->
+
+  <div class="parallax-effect">
+    <!-- ... Barre de recherche ... -->
+    <form class="d-none d-sm-flex col-12 justify-content-center" role="search">
+      <input class="form-control w-50 mt-3 " type="search" placeholder="Rechercher.." aria-label="Rechercher">
+      <button type="button" class="btn-check">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+          viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 
+                              1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+        </svg>
+      </button>
+
+    </form>
+    <!-- ... Affichage des catégories  ... -->
+    <div class="container  my-14 mx-16 ">
+      <div class="row  ">
+        <div class="col-lg-4 col-md-4 col-sm-12 mb-0 d-flex p-3 justify-content-center">
+          <a href="#" class="image-link position-relative">
+            <img src="img/category/wrap_cat.jpg" alt="wrap_cat" class="img-thumbnail m-3">
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 mb-0 d-flex p-3 justify-content-center">
+          <a href="#" class="image-link position-relative">
+            <img src="img/category/burger_cat.jpg" alt="wrap_cat" class="img-thumbnail m-3">
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 mb-0 d-flex p-3 justify-content-center">
+          <a href="#" class="image-link position-relative">
+            <img src="img/category/pasta_cat.jpg" alt="wrap_cat" class="img-thumbnail m-3">
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 mb-0 d-flex p-3 justify-content-center">
+          <a href="#" class="image-link position-relative">
+            <img src="img/category/asian_food_cat.jpg" alt="wrap_cat" class="img-thumbnail m-3">
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 mb-0 d-flex p-3 justify-content-center">
+          <a href="#" class="image-link position-relative">
+            <img src="img/category/pizza_cat.jpg" alt="wrap_cat" class="img-thumbnail m-3">
+          </a>
+        </div>
+        <div class="d-none col-lg-4 col-md-4 mb-0 d-md-flex p-3 justify-content-center">
+          <a href="#" class="image-link position-relative">
+            <img src="img/category/salade_cat.jpg" alt="wrap_cat" class="img-thumbnail m-3">
+          </a>
+        </div>
+
+
+
+        <div class="row">
+        <div class="d-none col-lg-4 col-md-4 mb-0 d-md-flex p-3 justify-content-center">
+          <a href="#" class="image-link position-relative" >
+            <img src="img/plats/menu-burger.jpg" alt="wrap_cat" id="plt" class="img-thumbnail m-3">
+          </a>
+        </div>
+        <div class="d-none col-lg-4 col-md-4 mb-0 d-md-flex p-3 justify-content-center">
+          <a href="#" class="image-link position-relative">
+            <img src="img/plats/i91126-makis-saumon-et-avocat.jpg" alt="wrap_cat" id="plt" class="img-thumbnail m-3">
+          </a>
+        </div>
+        <div class="d-none col-lg-4 col-md-4 mb-0 d-md-flex p-3 justify-content-center">
+          <a href="#" class="image-link position-relative">
+            <img src="img/plats/spaghetti-legumes.jpg" alt="wrap_cat" id="plt" class="img-thumbnail m-3">
+          </a>
+        </div>
+      </div>
+
       
-                                             <!-- ... Contenu du parallax ici ... -->
+     
       
-    <div class="parallax-effect">
-                                          <!-- ... Barre de recherche ... -->
-        <form class= "d-none d-sm-flex col-12 justify-content-center " role="search">
-            <input class="form-control w-50 mt-3 " type="search" placeholder="Rechercher.." aria-label="Rechercher">
-                <button type="button" class="btn-check"> 
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 
-                              1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-                </svg>
-                </button>
-  
-         </form>
-                          <!-- ... Affichage des catégories  ... -->       
-    <div class="container">
-      <div class="my-5 mx-5 mt-0 d-md-none" >
-          <a href="#"><img src="img/plats/Food-Name-3461.jpg" alt="wrap poulet" class="img-thumbnail d-md-none" ></a>
-          <a href="#"><img src="img/plats/Food-Name-6340.jpg" alt="wrap poulet" class="img-thumbnail d-md-none" ></a>
-          <a href="#"><img src="img/plats/pizza-margherita.jpg" alt="wrap poulet" class="img-thumbnail d-md-none" ></a>
-          <a href="#"><img src="img/plats/Design sans titre.jpg" alt="cesar_salad" class="img-thumbnail d-md-none" ></a>
-          <a href="#"><img src="img/plats/courgettes-farcies.jpg" alt="courgettes-farcies" class="img-thumbnail d-md-none" ></a>
-      </div>  
-    </div>
-   </div>
 
-<footer class="container-fluid">
-    <div class="d-md-flex flex-row d-none ">
 
-        <a href="#" class="icon-link-hover"><img src="img/the_district_brand/instagram_profile_image.png" class="col-10 h-50" alt="facebook"></a>
-        <a href="#" class="icon-link-hover"><img src="img/the_district_brand/instagram_profile_image.png" class="col-10 h-50" alt="instagram"></a>
-        <a href="#" class="icon-link-hover"><img src="img/the_district_brand/instagram_profile_image.png" class="col-10 h-50" alt="linkedin"></a>
-        <a href="#" class="icon-link-hover"><img src="img/the_district_brand/instagram_profile_image.png" class="col-10 h-50" alt="twitter"></a>
+
+
+
+
+  <footer class="row justify-content-center">
+    <div class="d-md-flex  d-none mt-5 align-items-end">
+
+      <a href="#" class="icon-link-hover "><img src="img/the_district_brand/instagram_profile_image.png"
+          class="col-10 h-50 " alt="facebook"></a>
+      <a href="#" class="icon-link-hover"><img src="img/the_district_brand/instagram_profile_image.png"
+          class="col-10 h-50" alt="instagram"></a>
+      <a href="#" class="icon-link-hover"><img src="img/the_district_brand/instagram_profile_image.png"
+          class="col-10 h-50" alt="linkedin"></a>
+      <a href="#" class="icon-link-hover"><img src="img/the_district_brand/instagram_profile_image.png"
+          class="col-10 h-50" alt="twitter"></a>
 
     </div>
-    
-  
-</footer>
 
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
   <script src="animation.js"></script>
