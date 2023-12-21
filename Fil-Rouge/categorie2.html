@@ -11,13 +11,13 @@
 </head>
 
 <body>
-
+                                            <!-- ... Contenu du menu de navigation ... -->
   <header>
     <nav class="navbar p-0 navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid p-0">
-        <img src="img/logo_transparent.png" class="col-3 " alt="Logo THE DISCTRIC">
-        <button class="navbar-toggler custom-navbar-btn " type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="img/logo_transparent.png" class="col-3 col-lg-2 " alt="Logo_THE_DISCTRIC">
+          <button class="navbar-toggler custom-navbar-btn " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -29,10 +29,10 @@
               <a class="nav-link " href="categories.html">CATEGORIES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"> TOUT LES PLATS</a>
+              <a class="nav-link" href="tout_les_plats.html"> TOUT LES PLATS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
+              <a class="nav-link" href="contact.html">CONTACT</a>
             </li>
           </ul>
         </div>
@@ -40,11 +40,11 @@
     </nav>
   </header>
 
-  <!-- ... Contenu du parallax ici ... -->
+                                              <!-- ... Contenu du parallax ici ... -->
 
   <div class="parallax-effect">
 
-    <!-- ... Affichage des catégories  ... -->
+                                            <!-- ... Affichage des catégories  ... -->
     <div class="container-fluid  my-14 mx-16">
       <div class="row  ">
         <div class="col-lg-4 col-md-4 col-sm-12 mb-3 d-flex justify-content-center">
@@ -60,6 +60,7 @@
             <h4 class="image-title">SALADE</h4>
           </a>
         </div>
+
         <div class="col-lg-4 col-md-4 col-sm-12 mb-3  d-flex justify-content-center">
           <a href="#" class="image-link position-relative">
             <img src="img/category/KEBAB.jpg" alt="wrap_cat" class="img-thumbnail ">
@@ -73,32 +74,36 @@
             <h4 class="image-title">TACOS</h4>
           </a>
         </div>
+
         <div class="col-lg-4 col-md-4 col-sm-12 mb-3 d-flex justify-content-center">
           <a href="#" class="image-link position-relative">
             <img src="img/category/TENDERS.jpg" alt="veggie_cat" class="img-thumbnail">
             <h4 class="image-title">TENDERS</h4>
           </a>
         </div>
+
         <div class="col-sm-12 d-md-none d-flex justify-content-center">
             <a href="plats_par_categorie.html" class="image-link position-relative">
               <img src="img/category/asian_food_cat.jpg" alt="veggie_cat" class="img-thumbnail">
               <h4 class="image-title">ASIAN</h4>
             </a>
-          </div>
+        </div>
+
+    </div>
+
+                                        <!-- ... Affichage des bouton precedent-suivant  ... -->
+       <div class="d-flex justify-content-center " >
+          <ul class="pager d-flex justify-content-evenly m-2 p-3 w-25">
+            <button type="button" disabled="disabled" class="p-2"><a href="#" class="bt" title="Précédent">Précédent</a></button>
+          </ul>
+          <ul class="pager d-flex justify-content-evenly m-2 p-3 w-25">
+            <button type="button" class="p-2"><a href="" class="bt w-25" title="Suivant">Suivant</a></button>
+          </ul>
+      </div>
 
 
-
-        <!-- ... Affichage des bouton precedent-suivant  ... -->
-        <div>
-            <ul class="pager d-flex justify-content-around m-2 p-3">
-              <button type="button"  class="p-2"><a href="categories.html" title="Précédent">Précédent</a></button>
-              <button type="button" disabled="disabled" class="p-2"><a href="#" title="Suivant">Suivant</a></button>
-            </ul>
-          </div>
-
-
-        <!-- ... Affichage des logos reseaux  ... -->
-        <footer class="row justify-content-center">
+                                          <!-- ... Affichage des logos reseaux  ... -->
+  <footer class="row justify-content-center">
             <div class="d-md-flex  d-none mt-5 align-items-end">
         
               <a href="#" class="icon-link-hover "><img src="img/the_district_brand/instagram_profile_image.png"
@@ -113,12 +118,15 @@
             </div>
         
         
-          </footer>
+  </footer>
+      
+    </div>
+  </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-          crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"crossorigin="anonymous"></script>
         <script src="animation.js"></script>
+          
 </body>
-
 </html>
+          
+
