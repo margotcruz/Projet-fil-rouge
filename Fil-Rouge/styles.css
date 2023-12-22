@@ -49,7 +49,10 @@
     color: #970747;
     position: absolute;
     bottom: 67%;
-    left: 84%; 
+    left: 83%;
+    background-color: #ffffff;
+    border: #ffffff;
+     
     
 
    
@@ -99,13 +102,7 @@
 }
 
 
-.pager button {
 
-color: #970747;
-box-shadow: #970747 0 2px 8px;
-width: 5rem;
-height: 3rem;
-}
 
 .mt-5 {
     width: 36rem;
@@ -144,3 +141,35 @@ height: 3rem;
     
 }
 
+
+#search-button {
+    width: 100px;
+    height: 50px;
+  }
+      
+  #search-button svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  .pager-1 {
+    bottom: 30%;
+    left: 10%;
+    width: 24%;
+    height: 93%;
+    background-color: #ffffff;
+    box-shadow: #970747 0 2px 8px;
+
+  }
+
+
+
+  .pager-2 {
+    bottom: 30%;
+    left: 10%;
+    width: 24%;
+    height: 93%;
+    background-color: #ffffff;
+    box-shadow: #970747 0 2px 8px;
+
+  }
